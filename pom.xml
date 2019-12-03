@@ -40,6 +40,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
+                    <fork>true</fork>
                     <suiteXmlFiles>
                         <suiteXmlFile>${siuteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
